@@ -5,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header className="App-header">Dictionary</header>
+        <header className="App-header">Daniella's Dictionary</header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer">
           <a
@@ -15,9 +15,9 @@ function App() {
             target="_blank"
             rel="noreferrer"
           >
-            Open-source
+            Open-source code
           </a>{" "}
-          code by Daniella Gombor
+          by Daniella Gombor
         </footer>
       </div>
     </div>
