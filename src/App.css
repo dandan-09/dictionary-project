@@ -1,3 +1,8 @@
+.App {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
 .App-header {
   text-align: center;
   margin: 30px 0;
@@ -12,7 +17,12 @@
 }
 
 body {
-  background: rgba(217, 199, 204, 0.226);
+  background: linear-gradient(
+    76.5deg,
+    rgba(129, 253, 255, 0.295) 0.4%,
+    rgba(255, 175, 207, 0.283) 49.8%,
+    rgba(255, 207, 153, 0.267) 98.6%
+  );
 }
 
 .App header {
@@ -22,14 +32,14 @@ body {
   line-height: 1.5;
 }
 
-.App a {
+.App .App-link {
   text-decoration: none;
   font-weight: bold;
   color: rgb(222, 53, 135);
   transition: all 150ms ease-in-out;
 }
 
-.App a:hover {
+.App .App-link:hover {
   background: rgb(222, 53, 135);
   color: white;
   padding: 5px 10px;

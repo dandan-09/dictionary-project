@@ -14,6 +14,7 @@ function App() {
             href="https://github.com/dandan-09/dictionary-project"
             target="_blank"
             rel="noreferrer"
+            className="App-link"
           >
             Open-source code
           </a>{" "}
